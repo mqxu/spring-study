@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--定义bean,并使用构造器注入-->
+    <bean id="messageServiceImpl" class="com.spring.ioc.MessageServiceImpl">
+        <constructor-arg name="username" value="Tom"/>
+        <constructor-arg name="age" value="20"/>
+    </bean>
+
+    <!--定义bean,并使用setter注入，使用属性p简化-->
+    <bean id="messageServiceImpl1" class="com.spring.ioc.MessageServiceImpl"
+          p:username="Tom"
+          p:age="20"/>
+
+    <bean id="messagePrinter" class="com.spring.ioc.MessagePrinter">
+        <constructor-arg name="messageService" ref="messageServiceImpl"/>
+    </bean>
+
+    <bean id="max" class="com.spring.ioc.Max">
+        <constructor-arg name="a" value="5"/>
+        <constructor-arg name="b" value="3"/>
+    </bean>
+</beans>
