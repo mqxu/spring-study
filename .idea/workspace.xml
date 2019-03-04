@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springmvc:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8a99fe2c-4139-45c6-99c8-a455b03864c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Boss.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Max.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MaxApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Meeting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MeetingApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MessageApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MessagePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MessageServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/test/java/com/spring/ioc/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IoC/src/test/java/com/spring/ioc/MaxTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/IoC.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/IoC.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/java/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Max.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MaxApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessageApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessagePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessageService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessageServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/IoC/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/test/java/com/spring/quickstart/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IoC/src/test/java/com/spring/quickstart/MaxTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/basic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/annotation/Hello.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/HelloApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/annotation/HelloApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/annotation/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/annotation/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/annotation/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/annotation/StudentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/xml/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/xml/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/xml/HelloWorldApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/xml/HelloWorldApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/xml/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/xml/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/xml/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/xml/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/xml/StuentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/ioc/quickstart/xml/StuentApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quickstart/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc/src/main/java/com/spring/mvc/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/spring/ioc/mvc/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmvc/src/main/java/com/spring/mvc/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/springmvc/src/main/java/com/spring/ioc/mvc/model/User.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/quickstart/target/" />
+    <ignored path="$PROJECT_DIR$/IoC/target/" />
+    <ignored path="$PROJECT_DIR$/web/target/" />
+    <ignored path="$PROJECT_DIR$/mvc/target/" />
+    <ignored path="$PROJECT_DIR$/mvc/mvc-thymeleaf/target/" />
+    <ignored path="$PROJECT_DIR$/springmvc/target/" />
+    <ignored path="$PROJECT_DIR$/basic/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Max.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="8" column="16" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+              <folding>
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/IoC/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="85" column="17" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IoC/src/test/java/com/spring/ioc/MaxTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#577#578#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MaxApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="8" column="33" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="JUnit5 Test Class" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/web/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/SpringREST-servlet.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/spring/mvc/model/User.java" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/spring/mvc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/mvc/web/index.jsp" />
+        <option value="$PROJECT_DIR$/mvc/mvc-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/mvc/src/main/java/com/spring/mvc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/mvc/web/index.html" />
+        <option value="$PROJECT_DIR$/mvc/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/mvc/model/User.java" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/webapp/hello.html" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/resources/SpringREST-servlet.xml" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/com/spring/mvc/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Car.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Boss.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/AppConfig.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Max.java" />
+        <option value="$PROJECT_DIR$/basic/pom.xml" />
+        <option value="$PROJECT_DIR$/quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/com/bbs/entity/User.java" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserRowMapper.java" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserDAO.java" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserDAOTest.java" />
+        <option value="$PROJECT_DIR$/springmvc/src/test/com/bbs/dao/UserDAOTest.java" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserDAOImpl.java" />
+        <option value="$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserRepositry.java" />
+        <option value="$PROJECT_DIR$/springmvc/pom.xml" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Fruit.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Apple.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Banner.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/FruitApp.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MessageServiceImpl.java" />
+        <option value="$PROJECT_DIR$/quickstart/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Boss.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Meeting.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Car.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MeetingApp.java" />
+        <option value="$PROJECT_DIR$/IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Max.java" />
+        <option value="$PROJECT_DIR$/IoC/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MaxApp.java" />
+        <option value="$PROJECT_DIR$/IoC/src/test/java/com/spring/ioc/MaxTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven_jar" />
+        <option name="mavenHome" value="D:/tools/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\tools\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="IoC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="IoC" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1614" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="IoC" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="ioc" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551680832992" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/IoC" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.spring.ioc" />
+      <recent name="com.bbs.dao" />
+      <recent name="com.spring.quickstart" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SpringStudy\spring-study\springmvc\target" />
+      <recent name="E:\SpringStudy\spring-study\springmvc\src\main\webapp" />
+      <recent name="E:\SpringStudy\spring-study\springmvc\src" />
+      <recent name="E:\SpringStudy\spring-study\springmvc\src\main\resources" />
+      <recent name="E:\SpringStudy\spring-study\web\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.spring.mvc.controller" />
+      <recent name="com.spring.mvc.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SpringStudy\spring-study\IoC\src\main\resources" />
+      <recent name="E:\SpringStudy\spring-study\IoC\src\main\java\com\spring\ioc" />
+      <recent name="E:\SpringStudy\spring-study\springmvc\src\main\resources" />
+      <recent name="E:\SpringStudy\spring-study\springmvc\src\main\java" />
+      <recent name="E:\SpringStudy\spring-study\springmvc\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MaxTest.getMax">
+    <configuration name="MaxApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.ioc.MaxApp" />
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MeetingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.ioc.MeetingApp" />
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.ioc.MessageApp" />
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MessageApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.spring.quickstart.MessageApp" />
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.quickstart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxTest.getMax" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="IoC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring.ioc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.spring.ioc" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.ioc.MaxTest" />
+      <option name="METHOD_NAME" value="getMax" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="my" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="C:\Program Files\Java\jdk1.8.0_181\jre">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/springmvc" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="springmvc:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/springmvc" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-study_3" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59572" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvc:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.MessageApp" />
+      <item itemvalue="Tomcat Server.my" />
+      <item itemvalue="Application.MessageApp (1)" />
+      <item itemvalue="Application.MeetingApp" />
+      <item itemvalue="Application.MaxApp" />
+      <item itemvalue="JUnit.MaxTest.getMax" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MaxTest.getMax" />
+        <item itemvalue="Application.MaxApp" />
+        <item itemvalue="Application.MeetingApp" />
+        <item itemvalue="Application.MessageApp (1)" />
+        <item itemvalue="Application.MessageApp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a99fe2c-4139-45c6-99c8-a455b03864c8" name="Default Changelist" comment="" />
+      <created>1551498343003</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551498343003</updated>
+      <workItem from="1551498345108" duration="7597000" />
+      <workItem from="1551506271128" duration="16631000" />
+      <workItem from="1551607529961" duration="316000" />
+      <workItem from="1551610546600" duration="979000" />
+      <workItem from="1551611758386" duration="5814000" />
+      <workItem from="1551617956281" duration="672000" />
+      <workItem from="1551656738418" duration="21000" />
+      <workItem from="1551659616288" duration="10022000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit quickstart and IoC modules">
+      <created>1551502664747</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1551502664747</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit quickstart module">
+      <created>1551502757755</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1551502757755</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add README.md file in quickstart module">
+      <created>1551503032336</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1551503032336</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add README.md file in IoC module">
+      <created>1551503185803</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551503185804</updated>
+    </task>
+    <task id="LOCAL-00005" summary="commit spring-mvc module">
+      <created>1551533868147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1551533868148</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update quickstart module">
+      <created>1551659676458</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1551659676458</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MaxTest_getMax - 2019.03.02 at 12h 53m 17s.xml">
+      <configuration name="MaxTest.getMax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxTest_getMax - 2019.03.02 at 12h 54m 34s.xml">
+      <configuration name="MaxTest.getMax" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_testFindUserByAccount - 2019.03.03 at 20h 29m 34s.xml">
+      <configuration name="UserDAOTest.testFindUserByAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_testFindUserByAccount - 2019.03.03 at 20h 36m 27s.xml">
+      <configuration name="UserDAOTest.testFindUserByAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_testFindUserByAccount - 2019.03.03 at 20h 37m 22s.xml">
+      <configuration name="UserDAOTest.testFindUserByAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_testFindUserByAccount - 2019.03.03 at 20h 38m 41s.xml">
+      <configuration name="UserDAOTest.testFindUserByAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_testFindUserByAccount - 2019.03.03 at 20h 39m 44s.xml">
+      <configuration name="UserDAOTest.testFindUserByAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_testFindUserByAccount - 2019.03.03 at 20h 44m 28s.xml">
+      <configuration name="UserDAOTest.testFindUserByAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserDAOTest_testFindUserByAccount - 2019.03.03 at 20h 45m 49s.xml">
+      <configuration name="UserDAOTest.testFindUserByAccount" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MaxTest_getMax - 2019.03.04 at 14h 11m 09s.xml">
+      <configuration name="MaxTest.getMax" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="42052000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Capture Tool" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Designer" order="4" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24009702" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3283859" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Compute Code Lines" order="3" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3562152" />
+      <window_info anchor="bottom" id="Database Changes" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" weight="0.3283859" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.3283859" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.28385898" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.26530612" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3580705" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" />
+      <window_info anchor="bottom" id="File Transfer" order="17" weight="0.33766234" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.34438157" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit quickstart and IoC modules" />
+    <MESSAGE value="commit quickstart module" />
+    <MESSAGE value="add README.md file in quickstart module" />
+    <MESSAGE value="add README.md file in IoC module" />
+    <MESSAGE value="commit spring-mvc module" />
+    <MESSAGE value="update quickstart module" />
+    <option name="LAST_COMMIT_MESSAGE" value="update quickstart module" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mvc/src/main/java/com/spring/mvc/controller/UserController.java" />
+    <entry file="file://$PROJECT_DIR$/mvc/src/main/resources/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/mvc/target/mvc/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/mvc/src/main/resources/SpringREST-servlet.xml" />
+    <entry file="file://$PROJECT_DIR$/mvc/web/index.html" />
+    <entry file="file://$PROJECT_DIR$/mvc/web/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/mvc/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/spring/ioc/mvc/model/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/target/springmvc/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/resources/SpringREST-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="33" column="22" selection-start-line="33" selection-start-column="22" selection-end-line="33" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/spring/ioc/mvc/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessageService.java" />
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Car.java" />
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Boss.java" />
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/AppConfig.java" />
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart/src/main/java/com/spring/quickstart/bbs/Test.java" />
+    <entry file="file://$PROJECT_DIR$/basic/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="23" selection-start-column="6" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/bbs/entity/User.java" />
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserRowMapper.java" />
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserDAOTest.java" />
+    <entry file="file://$PROJECT_DIR$/IoC/src/test/java/com/spring/quickstart/MaxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="19" column="20" selection-start-line="18" selection-start-column="3" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-579">
+          <caret line="22" column="74" selection-start-line="22" selection-start-column="74" selection-end-line="22" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserDAOImpl.java" />
+    <entry file="file://$PROJECT_DIR$/springmvc/src/test/com/bbs/dao/UserDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="18" column="57" selection-start-line="18" selection-start-column="57" selection-end-line="18" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/resources/jdbc.properties" />
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserDAO.java" />
+    <entry file="file://$PROJECT_DIR$/springmvc/src/main/java/com/bbs/dao/UserRepositry.java" />
+    <entry file="file://$PROJECT_DIR$/springmvc/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="34" />
+          <folding>
+            <element signature="n#build#0;n#project#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Fruit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Apple.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#108#109#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/Banner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+          <folding>
+            <element signature="e#109#110#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/FruitApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/quickstart/MessagePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MessageServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickstart/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="18" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MessageApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#480#481#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#584#585#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Boss.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#526#527#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#636#637#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#857#858#0" expanded="true" />
+            <element signature="e#909#910#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Meeting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#408#409#0" expanded="true" />
+            <element signature="e#442#443#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#508#509#0" expanded="true" />
+            <element signature="e#556#557#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MeetingApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="31" column="31" lean-forward="true" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/Max.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/java/com/spring/ioc/MaxApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/test/java/com/spring/ioc/MaxTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IoC/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="85" column="17" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>springmvc:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>springmvc</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

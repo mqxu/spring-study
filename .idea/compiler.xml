@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="IoC" />
+        <module name="quickstart" />
+        <module name="springmvc" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="basic" target="1.8" />
+      <module name="IoC" target="1.8" />
+      <module name="mvc" target="1.8" />
+      <module name="mvcthymeleaf" target="1.8" />
+      <module name="quickstart" target="1.8" />
+      <module name="springmvc" target="1.8" />
+      <module name="web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
