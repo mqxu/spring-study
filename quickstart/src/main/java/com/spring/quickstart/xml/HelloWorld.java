@@ -1,4 +1,4 @@
-package com.spring.ioc.xml;
+package com.spring.quickstart.xml;
 
 public class HelloWorld {
     public String getHello() {

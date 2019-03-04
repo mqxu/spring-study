@@ -1,4 +1,4 @@
-package com.spring.ioc;
+package com.spring.quickstart;
 
 public class MessagePrinter {
     final private MessageService messageService;

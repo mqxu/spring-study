@@ -1,12 +1,12 @@
-package com.spring.ioc;
+package com.spring.quickstart;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class MessageApp {
+public class MaxApp {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext.xml");
-        MessagePrinter messagePrinter = context.getBean(MessagePrinter.class);
-        messagePrinter.printMessage();
+        Max max = context.getBean(Max.class);
+        System.out.println(max.getMax());
     }
 }

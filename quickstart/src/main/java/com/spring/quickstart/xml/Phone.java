@@ -1,4 +1,4 @@
-package com.spring.ioc.xml;
+package com.spring.quickstart.xml;
 
 public class Phone {
     private String brand;

@@ -1,4 +1,4 @@
-package com.spring.ioc;
+package com.spring.quickstart;
 
 public class MessageServiceImpl implements MessageService {
     private String username;

@@ -4,14 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--配置一个HelloWorld类的bean-->
-    <bean id="helloWorld" class="com.spring.ioc.xml.HelloWorld"/>
+    <bean id="helloWorld" class="com.spring.quickstart.xml.HelloWorld"/>
     <!--配置一个Phone类的bean，并采用构造器传值-->
-    <bean id="phone" class="com.spring.ioc.xml.Phone">
+    <bean id="phone" class="com.spring.quickstart.xml.Phone">
         <constructor-arg name="brand" value="iPhoneX"/>
         <constructor-arg name="price" value="6888.88"/>
     </bean>
     <!--配置一个Student类的bean，并采用属性传值，注意ref的使用-->
-    <bean id="student" class="com.spring.ioc.xml.Student">
+    <bean id="student" class="com.spring.quickstart.xml.Student">
         <property name="name" value="Tom"/>
         <property name="age" value="21"/>
         <property name="phone" ref="phone"/>

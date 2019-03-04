@@ -1,4 +1,4 @@
-package com.spring.ioc;
+package com.spring.quickstart;
 
 
 import org.junit.Test;
