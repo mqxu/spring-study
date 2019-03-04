@@ -9,7 +9,6 @@
         <outputRelativeToContentRoot value="true" />
         <module name="IoC" />
         <module name="quickstart" />
-        <module name="springmvc" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
