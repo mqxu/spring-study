@@ -1,4 +1,4 @@
-package com.spring.quickstart;
+package com.spring.ioc;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

@@ -1,25 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--定义bean,并使用构造器注入-->
-    <bean id="messageServiceImpl" class="com.spring.quickstart.MessageServiceImpl">
+    <bean id="messageServiceImpl" class="com.spring.ioc.MessageServiceImpl">
         <constructor-arg name="username" value="Tom"/>
         <constructor-arg name="age" value="20"/>
     </bean>
 
-    <!--定义bean,并使用setter注入，使用属性p简化-->
-    <bean id="messageServiceImpl1" class="com.spring.quickstart.MessageServiceImpl"
-          p:username="Tom"
-          p:age="20"/>
-
-    <bean id="messagePrinter" class="com.spring.quickstart.MessagePrinter">
+    <bean id="messagePrinter" class="com.spring.ioc.MessagePrinter">
         <constructor-arg name="messageService" ref="messageServiceImpl"/>
     </bean>
 
-    <bean id="max" class="com.spring.quickstart.Max">
+    <!--配置三个Car的bean-->
+    <bean id="car1" class="com.spring.ioc.Car">
+        <constructor-arg name="brand" value="奔驰"/>
+        <constructor-arg name="color" value="黑色"/>
+        <constructor-arg name="parameter" value="4.0T"/>
+    </bean>
+
+    <bean id="car2" class="com.spring.ioc.Car">
+        <constructor-arg name="brand" value="宝马X6"/>
+        <constructor-arg name="color" value="白色"/>
+        <constructor-arg name="parameter" value="3.8T"/>
+    </bean>
+
+    <bean id="car3" class="com.spring.ioc.Car">
+        <property name="brand" value="劳斯莱斯"/>
+        <property name="color" value="金色"/>
+        <property name="parameter" value="4.5T"/>
+    </bean>
+
+    <!--配置三个Boss的bean-->
+    <bean id="boss1" class="com.spring.ioc.Boss">
+        <constructor-arg name="name" value="马云"/>
+        <constructor-arg name="company" value="阿里巴巴"/>
+        <constructor-arg name="car" ref="car1"/>
+        <constructor-arg name="hobbies">
+            <list>
+                <value>演讲</value>
+                <value>写作</value>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id="boss2" class="com.spring.ioc.Boss">
+        <property name="name" value="马化腾"/>
+        <property name="company" value="腾讯"/>
+        <property name="car" ref="car2"/>
+        <property name="hobbies">
+            <list>
+                <value>打游戏</value>
+                <value>看电影</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="boss3" class="com.spring.ioc.Boss">
+        <property name="name" value="李彦宏"/>
+        <property name="company" value="百度"/>
+        <property name="car" ref="car3"/>
+        <property name="hobbies">
+            <list>
+                <value>阅读</value>
+                <value>运动</value>
+            </list>
+        </property>
+    </bean>
+
+
+    <!--配置一个Meeting的bean-->
+    <bean id="meeting" class="com.spring.ioc.Meeting">
+        <property name="theme" value="2019互联网高层峰会"/>
+        <property name="bosses">
+            <list>
+                <ref bean="boss1"/>
+                <ref bean="boss2"/>
+                <ref bean="boss3"/>
+            </list>
+        </property>
+    </bean>
+
+    <!--配置一个Max的bean-->
+    <bean id="max" class="com.spring.ioc.Max">
         <constructor-arg name="a" value="5"/>
         <constructor-arg name="b" value="3"/>
     </bean>
