@@ -12,7 +12,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 public class MeetingApp {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext.xml");
-        Meeting meeting = (Meeting) context.getBean("meeting");
+        Meeting meeting = context.getBean(Meeting.class);
         System.out.println(meeting);
     }
 }

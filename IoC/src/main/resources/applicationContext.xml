@@ -87,4 +87,15 @@
         <constructor-arg name="a" value="5"/>
         <constructor-arg name="b" value="3"/>
     </bean>
+
+    <!--配置一个User的bean-->
+    <bean id="user" class="com.spring.ioc.User">
+        <constructor-arg name="account" value="admin"/>
+        <constructor-arg name="password" value="123"/>
+    </bean>
+
+    <!--配置一个UserLogin的bean-->
+    <bean id="userLogin" class="com.spring.ioc.UserLogin">
+        <property name="user" ref="user"/>
+    </bean>
 </beans>
