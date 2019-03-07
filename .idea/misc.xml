@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/quickstart/pom.xml" />
         <option value="$PROJECT_DIR$/springmvc/pom.xml" />
         <option value="$PROJECT_DIR$/IoC/pom.xml" />
+        <option value="$PROJECT_DIR$/aop/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

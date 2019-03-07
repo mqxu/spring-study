@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd">
+    <!--配置一个Hello的bean,等同于Hello hello = new HelloImpl();-->
+    <bean id="hello" class="com.spring.aop.HelloImpl"/>
+    <!--配置一个MyBeforeAdvice前置增强的bean-->
+    <bean id="myBeforeAdvice" class="com.spring.aop.MyBeforeAdvice"/>
+    <!--配置aop-->
+    <aop:config>
+        <aop:aspect id="before" ref="myBeforeAdvice">
+            <aop:pointcut id="myPointCut" expression="execution(* com.spring.aop.*.*(..))"/>
+            <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
+        </aop:aspect>
+    </aop:config>
+</beans>
