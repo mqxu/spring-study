@@ -7,14 +7,37 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!--配置一个Hello的bean,等同于Hello hello = new HelloImpl();-->
-    <bean id="hello" class="com.spring.aop.HelloImpl"/>
-    <!--配置一个MyBeforeAdvice前置增强的bean-->
-    <bean id="myBeforeAdvice" class="com.spring.aop.MyBeforeAdvice"/>
-    <!--配置aop-->
+    <!--<bean id="hello" class="com.spring.aop.HelloImpl"/>-->
+    <!--&lt;!&ndash;配置一个MyBeforeAdvice前置增强的bean&ndash;&gt;-->
+    <!--<bean id="myBeforeAdvice" class="com.spring.aop.MyBeforeAdvice"/>-->
+    <!--<bean id="myAfterAdvice" class="com.spring.aop.MyAfterAdvice"/>-->
+    <!--&lt;!&ndash;配置aop&ndash;&gt;-->
+    <!--<aop:config>-->
+    <!--<aop:aspect id="before" ref="myBeforeAdvice">-->
+    <!--<aop:pointcut id="myPointCut" expression="execution(* com.spring.aop.*.*(..))"/>-->
+    <!--<aop:before method="beforeMethod" pointcut-ref="myPointCut"/>-->
+    <!--</aop:aspect>-->
+    <!--</aop:config>-->
+
+
+    <!--UserDAO的练习配置-->
+    <bean id="userDAO" class="com.spring.aop.UserDAOImpl"/>
+    <bean id="beforeAdvice" class="com.spring.aop.BeforeAdvice"/>
     <aop:config>
-        <aop:aspect id="before" ref="myBeforeAdvice">
-            <aop:pointcut id="myPointCut" expression="execution(* com.spring.aop.*.*(..))"/>
-            <aop:before method="beforeMethod" pointcut-ref="myPointCut"/>
+        <aop:aspect id="before" ref="beforeAdvice">
+            <aop:pointcut id="pointCut" expression="execution(* com.spring.aop.*.*(..))"/>
+            <aop:before method="connectDB" pointcut-ref="pointCut"/>
         </aop:aspect>
     </aop:config>
+
+    <!--启动AspectJ支持-->
+    <!--<aop:aspectj-autoproxy/>-->
+    <!--&lt;!&ndash;配置bean&ndash;&gt;-->
+    <!--<bean id="tiger" class="com.spring.aspectj.Tiger"/>-->
+    <!--<bean id="fighter" class="com.spring.aspectj.Fighter"/>-->
+
+    <!--配置图片相关bean-->
+    <aop:aspectj-autoproxy/>
+    <bean id="imageCopy" class="com.spring.image.ImageCopy"/>
+    <bean id="imageHandler" class="com.spring.image.ImageHandler"/>
 </beans>
