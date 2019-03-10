@@ -1,12 +1,18 @@
-package com.spring.orm;
+package com.spring.ioc;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-public class MaxApp {
+/**
+ * Meeting主程序
+ *
+ * @author 莫淇
+ * 2019.3.4
+ */
+public class MeetingApp {
     public static void main(String[] args) {
         ApplicationContext context = new ClassPathXmlApplicationContext("/applicationContext.xml");
-        Max max = context.getBean(Max.class);
-        System.out.println(max.getMax());
+        Meeting meeting = context.getBean(Meeting.class);
+        System.out.println(meeting);
     }
 }

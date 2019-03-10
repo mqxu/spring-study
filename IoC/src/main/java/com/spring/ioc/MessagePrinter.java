@@ -1,4 +1,4 @@
-package com.spring.orm;
+package com.spring.ioc;
 
 public class MessagePrinter {
     final private MessageService messageService;

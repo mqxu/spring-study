@@ -1,4 +1,4 @@
-package com.spring.orm;
+package com.spring.ioc;
 
 import java.util.List;
 /**

@@ -1,4 +1,4 @@
-package com.spring.orm;
+package com.spring.ioc;
 
 /**
  * 待测程序，求两个数的较大值
