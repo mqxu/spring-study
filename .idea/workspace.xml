@@ -7,18 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a99fe2c-4139-45c6-99c8-a455b03864c8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/annotation/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/annotation/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/annotation/HelloApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/annotation/HelloApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/annotation/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/annotation/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/annotation/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/annotation/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/annotation/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/annotation/StudentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/xml/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/xml/HelloWorld.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/xml/HelloWorldApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/xml/HelloWorldApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/xml/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/xml/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/xml/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/xml/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/aop/ioc/quickstart/xml/StuentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/java/com/spring/xml/StuentApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quickstart/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/quickstart/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/IoC/target/" />
@@ -213,7 +202,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552221672699" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552221787003" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -471,7 +460,7 @@
       <workItem from="1551916045222" duration="12691000" />
       <workItem from="1552129672487" duration="10938000" />
       <workItem from="1552213898567" duration="2694000" />
-      <workItem from="1552216998587" duration="4400000" />
+      <workItem from="1552216998587" duration="4644000" />
     </task>
     <task id="LOCAL-00001" summary="commit quickstart and IoC modules">
       <created>1551502664747</created>
@@ -557,7 +546,21 @@
       <option name="project" value="LOCAL" />
       <updated>1552221496634</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="优化代码结构">
+      <created>1552221608382</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552221608382</updated>
+    </task>
+    <task id="LOCAL-00014" summary="优化代码结构">
+      <created>1552221775448</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1552221775448</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -593,7 +596,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81808000" />
+    <option name="totallyTimeSpent" value="82052000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
