@@ -1,5 +1,7 @@
 package com.spring.aop.ioc;
 
+import com.spring.orm.User;
+import com.spring.orm.UserLogin;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -7,10 +7,10 @@
        http://www.springframework.org/schema/aop
        http://www.springframework.org/schema/aop/spring-aop.xsd">
     <!--配置一个Hello的bean,等同于Hello hello = new HelloImpl();-->
-    <!--<bean id="hello" class="com.spring.aop.HelloImpl"/>-->
+    <!--<bean id="hello" class="HelloImpl"/>-->
     <!--&lt;!&ndash;配置一个MyBeforeAdvice前置增强的bean&ndash;&gt;-->
-    <!--<bean id="myBeforeAdvice" class="com.spring.aop.MyBeforeAdvice"/>-->
-    <!--<bean id="myAfterAdvice" class="com.spring.aop.MyAfterAdvice"/>-->
+    <!--<bean id="myBeforeAdvice" class="MyBeforeAdvice"/>-->
+    <!--<bean id="myAfterAdvice" class="MyAfterAdvice"/>-->
     <!--&lt;!&ndash;配置aop&ndash;&gt;-->
     <!--<aop:config>-->
     <!--<aop:aspect id="before" ref="myBeforeAdvice">-->
@@ -33,8 +33,8 @@
     <!--启动AspectJ支持-->
     <!--<aop:aspectj-autoproxy/>-->
     <!--&lt;!&ndash;配置bean&ndash;&gt;-->
-    <!--<bean id="tiger" class="com.spring.aspectj.Tiger"/>-->
-    <!--<bean id="fighter" class="com.spring.aspectj.Fighter"/>-->
+    <!--<bean id="tiger" class="Tiger"/>-->
+    <!--<bean id="fighter" class="Fighter"/>-->
 
     <!--配置图片相关bean-->
     <aop:aspectj-autoproxy/>

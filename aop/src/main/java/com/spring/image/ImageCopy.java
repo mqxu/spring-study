@@ -1,6 +1,5 @@
 package com.spring.image;
 
-import com.spring.aop.BeforeAdvice;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

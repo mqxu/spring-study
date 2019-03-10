@@ -4,36 +4,36 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
     <!--定义bean,并使用构造器注入-->
-    <bean id="messageServiceImpl" class="com.spring.aop.ioc.MessageServiceImpl">
+    <bean id="messageServiceImpl" class="com.spring.orm.MessageServiceImpl">
         <constructor-arg name="username" value="Tom"/>
         <constructor-arg name="age" value="20"/>
     </bean>
 
-    <bean id="messagePrinter" class="com.spring.aop.ioc.MessagePrinter">
+    <bean id="messagePrinter" class="com.spring.orm.MessagePrinter">
         <constructor-arg name="messageService" ref="messageServiceImpl"/>
     </bean>
 
     <!--配置三个Car的bean-->
-    <bean id="car1" class="com.spring.aop.ioc.Car">
+    <bean id="car1" class="com.spring.orm.Car">
         <constructor-arg name="brand" value="奔驰"/>
         <constructor-arg name="color" value="黑色"/>
         <constructor-arg name="parameter" value="4.0T"/>
     </bean>
 
-    <bean id="car2" class="com.spring.aop.ioc.Car">
+    <bean id="car2" class="com.spring.orm.Car">
         <constructor-arg name="brand" value="宝马X6"/>
         <constructor-arg name="color" value="白色"/>
         <constructor-arg name="parameter" value="3.8T"/>
     </bean>
 
-    <bean id="car3" class="com.spring.aop.ioc.Car">
+    <bean id="car3" class="com.spring.orm.Car">
         <property name="brand" value="劳斯莱斯"/>
         <property name="color" value="金色"/>
         <property name="parameter" value="4.5T"/>
     </bean>
 
     <!--配置三个Boss的bean-->
-    <bean id="boss1" class="com.spring.aop.ioc.Boss">
+    <bean id="boss1" class="com.spring.orm.Boss">
         <constructor-arg name="name" value="马云"/>
         <constructor-arg name="company" value="阿里巴巴"/>
         <constructor-arg name="car" ref="car1"/>
@@ -45,7 +45,7 @@
         </constructor-arg>
     </bean>
 
-    <bean id="boss2" class="com.spring.aop.ioc.Boss">
+    <bean id="boss2" class="com.spring.orm.Boss">
         <property name="name" value="马化腾"/>
         <property name="company" value="腾讯"/>
         <property name="car" ref="car2"/>
@@ -57,7 +57,7 @@
         </property>
     </bean>
 
-    <bean id="boss3" class="com.spring.aop.ioc.Boss">
+    <bean id="boss3" class="com.spring.orm.Boss">
         <property name="name" value="李彦宏"/>
         <property name="company" value="百度"/>
         <property name="car" ref="car3"/>
@@ -71,7 +71,7 @@
 
 
     <!--配置一个Meeting的bean-->
-    <bean id="meeting" class="com.spring.aop.ioc.Meeting">
+    <bean id="meeting" class="com.spring.orm.Meeting">
         <property name="theme" value="2019互联网高层峰会"/>
         <property name="bosses">
             <list>
@@ -83,19 +83,19 @@
     </bean>
 
     <!--配置一个Max的bean-->
-    <bean id="max" class="com.spring.aop.ioc.Max">
+    <bean id="max" class="com.spring.orm.Max">
         <constructor-arg name="a" value="5"/>
         <constructor-arg name="b" value="3"/>
     </bean>
 
     <!--配置一个User的bean-->
-    <bean id="user" class="com.spring.aop.ioc.User">
+    <bean id="user" class="com.spring.orm.User">
         <constructor-arg name="account" value="admin"/>
         <constructor-arg name="password" value="123"/>
     </bean>
 
     <!--配置一个UserLogin的bean-->
-    <bean id="userLogin" class="com.spring.aop.ioc.UserLogin">
+    <bean id="userLogin" class="com.spring.orm.UserLogin">
         <property name="user" ref="user"/>
     </bean>
 </beans>

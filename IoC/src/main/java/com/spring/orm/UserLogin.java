@@ -1,4 +1,4 @@
-package com.spring.aop.ioc;
+package com.spring.orm;
 
 public class UserLogin {
     private User user;

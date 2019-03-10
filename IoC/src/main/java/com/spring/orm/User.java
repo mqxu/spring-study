@@ -1,4 +1,4 @@
-package com.spring.aop.ioc;
+package com.spring.orm;
 
 public class User {
     private String account;

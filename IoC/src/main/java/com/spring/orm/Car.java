@@ -1,4 +1,4 @@
-package com.spring.aop.ioc;
+package com.spring.orm;
 
 /**
  * Car类
