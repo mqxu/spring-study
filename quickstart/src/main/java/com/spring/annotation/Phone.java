@@ -1,4 +1,4 @@
-package com.spring.aop.ioc.quickstart.annotation;
+package com.spring.annotation;
 
 import lombok.*;
 import org.springframework.beans.factory.annotation.Value;
