@@ -8,8 +8,13 @@ import org.aspectj.lang.annotation.Pointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.image.BufferedImage;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
 
 /**
  * 图片处理类
@@ -24,13 +29,21 @@ public class ImageHandler {
     }
 
     @Before(value = "handleImage()")
-    public void pressTextOnImage() {
+    public void pressTextOnImage() throws IOException {
         logger.info("开始给图片添加水印");
         File srcFile = new File("D:/bg.jpg");
+        //通过字节输入流创建一个BufferedImage对象
+        InputStream input = new FileInputStream(srcFile);
+        BufferedImage srcImg = ImageIO.read(input);
+        int width = srcImg.getWidth();
+        int height = srcImg.getHeight();
+        System.out.println("原图宽：" + width + ",原图高：" + height);
         File destFile = new File("D:/bg1.jpg");
-        Color color = new Color(211, 71, 38);
-        Font font = new Font("微软雅黑", Font.BOLD, 60);
-        ImageUtil.pressText(srcFile, destFile, "Spring AOP水印", color, font, 0, 0, 1.0f);
+        Color color = new Color(8, 190, 217);
+        int size = 20;
+        Font font = new Font("微软雅黑", Font.BOLD, size);
+        String text = "微信";
+        ImageUtil.pressText(srcFile, destFile, text, color, font, (width - text.length() * size) / 2, height / 2 - size, 1.0f);
     }
 
     @AfterReturning("handleImage()")
@@ -40,5 +53,4 @@ public class ImageHandler {
         File destFile = new File("E:/bg2.jpg");
         ImageUtil.gray(srcFile, destFile);
     }
-
 }

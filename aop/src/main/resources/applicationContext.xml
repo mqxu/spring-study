@@ -31,13 +31,13 @@
     </aop:config>
 
     <!--启动AspectJ支持-->
-    <!--<aop:aspectj-autoproxy/>-->
-    <!--&lt;!&ndash;配置bean&ndash;&gt;-->
-    <!--<bean id="tiger" class="Tiger"/>-->
-    <!--<bean id="fighter" class="Fighter"/>-->
+    <aop:aspectj-autoproxy/>
+    <!--配置bean-->
+    <bean id="tiger" class="com.spring.aspectj.Tiger"/>
+    <bean id="fighter" class="com.spring.aspectj.Fighter"/>
 
     <!--配置图片相关bean-->
-    <aop:aspectj-autoproxy/>
+    <!--<aop:aspectj-autoproxy/>-->
     <bean id="imageCopy" class="com.spring.image.ImageCopy"/>
     <bean id="imageHandler" class="com.spring.image.ImageHandler"/>
 </beans>
