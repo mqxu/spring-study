@@ -36,8 +36,10 @@ public class UserServiceImplTest {
 
     @Test
     public void updateUser() {
-        User user = userService.getUser(10);
-        user.setPassword("00000000");
+        User user = new User();
+        user.setId(2L);
+        user.setAccount("abc");
+        user.setPassword("888888");
         user.setCredits(1111111);
         int n = userService.updateUser(user);
         assertEquals(1, n);
@@ -45,8 +47,9 @@ public class UserServiceImplTest {
 
     @Test
     public void selectUsers() {
-        List<User> users = userService.selectUsers();
-        users.forEach(user -> System.out.println(user));
+       List<User> users = userService.selectUsers();
+       //使用Lambda表达式输出集合的内容
+       users.forEach(user -> System.out.println(user));
     }
 
     @Test

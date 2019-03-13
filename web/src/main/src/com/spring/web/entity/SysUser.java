@@ -1,4 +1,4 @@
-package com.spring.orm.entity;
+package com.spring.web.entity;
 
 import lombok.Data;
 
@@ -7,14 +7,14 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table(name = "t_user")
+@Table(name = "t_sys_user")
 @Data
-public class User {
-    //标注主键和主键生成策略
+public class SysUser {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
-    private String account;
+    private Long userId;
+    private String mobile;
     private String password;
-    private Integer credits;
+    private String username;
+    private String avatar;
 }

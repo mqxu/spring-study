@@ -8,8 +8,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-
+//标注本类是一个Service组件
 @Service
+//在service层启动事务
 @Transactional
 public class UserServiceImpl implements UserService {
     @Autowired

@@ -11,17 +11,14 @@
         <module name="IoC" />
         <module name="orm" />
         <module name="quickstart" />
+        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="aop" target="1.8" />
-      <module name="basic" target="1.8" />
       <module name="IoC" target="1.8" />
-      <module name="mvc" target="1.8" />
-      <module name="mvcthymeleaf" target="1.8" />
       <module name="orm" target="1.8" />
       <module name="quickstart" target="1.8" />
-      <module name="springmvc" target="1.8" />
       <module name="web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
