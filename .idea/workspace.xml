@@ -7,48 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a99fe2c-4139-45c6-99c8-a455b03864c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/web_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_1_5_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/logs/my_log.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/springMVC-servlet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/resources/spring_mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/controller/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/BaseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/CourseDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/SysUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/CourseVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/impl/CourseServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/ResponseUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/test/java/com/spring/web/service/impl/CourseServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springmvc_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/springmvc_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/RandomCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/orm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/orm/orm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/spring/orm/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/spring/orm/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/spring/orm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/spring/orm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/test/java/com/spring/orm/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/test/java/com/spring/orm/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/logs/my_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/web/logs/my_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/src/com/spring/web/controller/CourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/controller/CourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/CourseDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/CourseDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/CourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/CourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/impl/CourseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/impl/CourseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/test/java/com/spring/web/service/impl/CourseServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/test/java/com/spring/web/service/impl/CourseServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/quickstart/target/" />
     <ignored path="$PROJECT_DIR$/IoC/target/" />
@@ -80,36 +48,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/CourseDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/SysUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="13" column="55" selection-start-line="12" selection-start-column="3" selection-end-line="13" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/service/CourseService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="138">
+              <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,10 +64,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/service/impl/CourseServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+            <state relative-caret-position="101">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
+                <element signature="e#645#646#0" expanded="true" />
+                <element signature="e#712#713#0" expanded="true" />
+                <element signature="e#739#740#0" expanded="true" />
+                <element signature="e#828#829#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="e#915#916#0" expanded="true" />
+                <element signature="e#939#940#0" expanded="true" />
+                <element signature="e#999#1000#0" expanded="true" />
+                <element signature="e#1023#1024#0" expanded="true" />
+                <element signature="e#1083#1084#0" expanded="true" />
+                <element signature="e#1107#1108#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,8 +88,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/test/java/com/spring/web/service/impl/CourseServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+            <state relative-caret-position="308">
+              <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/controller/CourseController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#830#831#0" expanded="true" />
+                <element signature="e#957#958#0" expanded="true" />
+                <element signature="e#1017#1018#0" expanded="true" />
+                <element signature="e#1681#1682#0" expanded="true" />
+                <element signature="e#1731#1732#0" expanded="true" />
+                <element signature="e#1925#1926#0" expanded="true" />
+                <element signature="e#1971#1972#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -142,10 +130,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/controller/CourseController.java">
+        <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/util/RandomCode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+            <state relative-caret-position="413">
+              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/Course.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="143">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -174,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/orm/src/test/java/com/spring/jdbc/dao/impl/UserDAOImplTest.java" />
-        <option value="$PROJECT_DIR$/orm/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/orm/src/main/java/com/spring/mybatis/dao/BaseDAO.java" />
         <option value="$PROJECT_DIR$/orm/src/main/java/com/spring/mybatis/dao/UserDAO.java" />
         <option value="$PROJECT_DIR$/orm/src/main/java/com/spring/mybatis/mapper/UserMapper.xml" />
@@ -218,13 +213,15 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/web/src/main/resources/springmvc-servlet.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/CourseDAO.java" />
+        <option value="$PROJECT_DIR$/web/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/CourseService.java" />
         <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/service/impl/CourseServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/src/test/java/com/spring/web/service/impl/CourseServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java" />
+        <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/util/RandomCode.java" />
         <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/controller/CourseController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/CourseDAO.java" />
       </list>
     </option>
   </component>
@@ -289,6 +286,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -420,19 +419,22 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552488417214" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552739571547" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -445,7 +447,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -495,8 +497,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CourseServiceImplTest.selectCurrentCourses">
-    <configuration name="CourseServiceImplTest.getAllCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CourseServiceImplTest.deleteCourse">
+    <configuration name="CourseServiceImplTest.deleteCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <extension name="coverage">
         <pattern>
@@ -506,13 +508,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spring.web.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.spring.web.service.impl.CourseServiceImplTest" />
-      <option name="METHOD_NAME" value="getAllCourses" />
+      <option name="METHOD_NAME" value="deleteCourse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseServiceImplTest.selectCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseServiceImplTest.getCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <extension name="coverage">
         <pattern>
@@ -522,13 +524,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spring.web.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.spring.web.service.impl.CourseServiceImplTest" />
-      <option name="METHOD_NAME" value="selectCourses" />
+      <option name="METHOD_NAME" value="getCourse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CourseServiceImplTest.selectCurrentCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CourseServiceImplTest.insertCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="web" />
       <extension name="coverage">
         <pattern>
@@ -538,48 +540,48 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.spring.web.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.spring.web.service.impl.CourseServiceImplTest" />
-      <option name="METHOD_NAME" value="selectCurrentCourses" />
+      <option name="METHOD_NAME" value="insertCourse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.insertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orm" />
+    <configuration name="CourseServiceImplTest.selectFinishedCourses" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.orm.service.impl.*" />
+          <option name="PATTERN" value="com.spring.web.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.orm.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.orm.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="insertUser" />
+      <option name="PACKAGE_NAME" value="com.spring.web.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.web.service.impl.CourseServiceImplTest" />
+      <option name="METHOD_NAME" value="selectFinishedCourses" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.updateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orm" />
+    <configuration name="CourseServiceImplTest.updateCourse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="web" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.spring.orm.service.impl.*" />
+          <option name="PATTERN" value="com.spring.web.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.spring.orm.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.spring.orm.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="updateUser" />
+      <option name="PACKAGE_NAME" value="com.spring.web.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.spring.web.service.impl.CourseServiceImplTest" />
+      <option name="METHOD_NAME" value="updateCourse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="my" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/web" />
+    <configuration name="my" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.14" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="web">
           <settings>
@@ -588,7 +590,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-study_4" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_spring-study_5" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -596,7 +598,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="56900" />
+        <option name="DEBUG_PORT" value="58440" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -651,20 +653,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserServiceImplTest.insertUser" />
-      <item itemvalue="JUnit.UserServiceImplTest.updateUser" />
-      <item itemvalue="JUnit.CourseServiceImplTest.selectCourses" />
-      <item itemvalue="JUnit.CourseServiceImplTest.getAllCourses" />
-      <item itemvalue="JUnit.CourseServiceImplTest.selectCurrentCourses" />
       <item itemvalue="Tomcat Server.my" />
+      <item itemvalue="JUnit.CourseServiceImplTest.selectFinishedCourses" />
+      <item itemvalue="JUnit.CourseServiceImplTest.getCourse" />
+      <item itemvalue="JUnit.CourseServiceImplTest.insertCourse" />
+      <item itemvalue="JUnit.CourseServiceImplTest.updateCourse" />
+      <item itemvalue="JUnit.CourseServiceImplTest.deleteCourse" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CourseServiceImplTest.selectCurrentCourses" />
-        <item itemvalue="JUnit.CourseServiceImplTest.selectCourses" />
-        <item itemvalue="JUnit.CourseServiceImplTest.getAllCourses" />
-        <item itemvalue="JUnit.UserServiceImplTest.updateUser" />
-        <item itemvalue="JUnit.UserServiceImplTest.insertUser" />
+        <item itemvalue="JUnit.CourseServiceImplTest.deleteCourse" />
+        <item itemvalue="JUnit.CourseServiceImplTest.updateCourse" />
+        <item itemvalue="JUnit.CourseServiceImplTest.insertCourse" />
+        <item itemvalue="JUnit.CourseServiceImplTest.getCourse" />
+        <item itemvalue="JUnit.CourseServiceImplTest.selectFinishedCourses" />
       </list>
     </recent_temporary>
   </component>
@@ -698,6 +700,9 @@
       <workItem from="1552313359847" duration="797000" />
       <workItem from="1552474730590" duration="10166000" />
       <workItem from="1552489091306" duration="609000" />
+      <workItem from="1552520999835" duration="6631000" />
+      <workItem from="1552644862621" duration="3335000" />
+      <workItem from="1552730124937" duration="7329000" />
     </task>
     <task id="LOCAL-00001" summary="commit quickstart and IoC modules">
       <created>1551502664747</created>
@@ -811,71 +816,78 @@
       <option name="project" value="LOCAL" />
       <updated>1552273000236</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="增加web模块">
+      <created>1552521247951</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1552521247951</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CourseServiceImplTest_getAllCourses - 2019.03.13 at 20h 28m 51s.xml">
-      <configuration name="CourseServiceImplTest.getAllCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_getAllCourses - 2019.03.13 at 20h 30m 59s.xml">
-      <configuration name="CourseServiceImplTest.getAllCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_getAllCourses - 2019.03.13 at 20h 32m 39s.xml">
-      <configuration name="CourseServiceImplTest.getAllCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_getAllCourses - 2019.03.13 at 20h 37m 46s.xml">
-      <configuration name="CourseServiceImplTest.getAllCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_selectCourses - 2019.03.13 at 20h 42m 03s.xml">
-      <configuration name="CourseServiceImplTest.selectCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_selectCourses - 2019.03.13 at 20h 42m 44s.xml">
-      <configuration name="CourseServiceImplTest.selectCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_selectCourses - 2019.03.13 at 21h 05m 33s.xml">
-      <configuration name="CourseServiceImplTest.selectCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_selectCourses - 2019.03.13 at 21h 05m 58s.xml">
-      <configuration name="CourseServiceImplTest.selectCourses" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CourseServiceImplTest_selectCurrentCourses - 2019.03.13 at 22h 30m 32s.xml">
+    <history-entry file="CourseServiceImplTest_selectCurrentCourses - 2019.03.14 at 09h 43m 32s.xml">
       <configuration name="CourseServiceImplTest.selectCurrentCourses" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CourseServiceImplTest_selectCurrentCourses - 2019.03.13 at 22h 31m 15s.xml">
-      <configuration name="CourseServiceImplTest.selectCurrentCourses" configurationId="JUnit" />
+    <history-entry file="CourseServiceImplTest_selectFinishedCourses - 2019.03.16 at 18h 02m 53s.xml">
+      <configuration name="CourseServiceImplTest.selectFinishedCourses" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_getCourse - 2019.03.16 at 18h 03m 48s.xml">
+      <configuration name="CourseServiceImplTest.getCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_selectFinishedCourses - 2019.03.16 at 18h 07m 58s.xml">
+      <configuration name="CourseServiceImplTest.selectFinishedCourses" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_getCourse - 2019.03.16 at 18h 08m 09s.xml">
+      <configuration name="CourseServiceImplTest.getCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_getCourse - 2019.03.16 at 18h 08m 21s.xml">
+      <configuration name="CourseServiceImplTest.getCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_getCourse - 2019.03.16 at 18h 10m 02s.xml">
+      <configuration name="CourseServiceImplTest.getCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_insertCourse - 2019.03.16 at 18h 12m 41s.xml">
+      <configuration name="CourseServiceImplTest.insertCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_updateCourse - 2019.03.16 at 18h 14m 31s.xml">
+      <configuration name="CourseServiceImplTest.updateCourse" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CourseServiceImplTest_deleteCourse - 2019.03.16 at 18h 15m 24s.xml">
+      <configuration name="CourseServiceImplTest.deleteCourse" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110241000" />
+    <option name="totallyTimeSpent" value="127536000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.26354083" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24575587" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.5528757" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.5046382" />
       <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Compute Code Lines" order="3" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.3562152" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.35578585" />
       <window_info anchor="bottom" id="Database Changes" order="5" />
       <window_info anchor="bottom" id="Version Control" order="6" weight="0.74397033" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3283859" />
       <window_info anchor="bottom" id="Message" order="8" />
       <window_info anchor="bottom" id="Find" order="9" weight="0.3283859" />
-      <window_info anchor="bottom" id="Run" order="10" weight="0.7235622" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.4749568" />
       <window_info anchor="bottom" id="Debug" order="11" weight="0.26530612" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.2987013" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.25906736" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" />
       <window_info anchor="bottom" id="File Transfer" order="17" weight="0.33766234" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -883,7 +895,7 @@
       <window_info anchor="right" id="Database" order="2" weight="0.32983023" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" visible="true" weight="0.16491511" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.261924" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
@@ -947,7 +959,8 @@
     <MESSAGE value="优化代码结构" />
     <MESSAGE value="增加ORM模块" />
     <MESSAGE value="完成AOP模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成AOP模块" />
+    <MESSAGE value="增加web模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加web模块" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/orm/src/main/java/com/spring/mybatis/dao/BaseDAO.java" />
@@ -1122,9 +1135,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/resources/jdbc.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/orm/src/main/java/com/spring/orm/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -1132,13 +1142,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/SysUserDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1159,30 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/util/ResponseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/Course.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="20" column="27" selection-start-line="14" selection-start-column="2" selection-end-line="20" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/CourseVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
@@ -1196,11 +1175,6 @@
         <state relative-caret-position="161">
           <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/target/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/resources/springMVC-servlet.xml">
@@ -1217,27 +1191,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java">
+    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/SysUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        <state relative-caret-position="189">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/SysUserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/CourseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+        <state relative-caret-position="59">
+          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/util/ResponseUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/dao/CourseDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        <state relative-caret-position="483">
+          <caret line="38" column="43" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="38" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/target/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/resources/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1246,8 +1261,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/service/CourseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="138">
+          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1256,40 +1271,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/service/impl/CourseServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        <state relative-caret-position="101">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#712#713#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="e#915#916#0" expanded="true" />
+            <element signature="e#939#940#0" expanded="true" />
+            <element signature="e#999#1000#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1083#1084#0" expanded="true" />
+            <element signature="e#1107#1108#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/test/java/com/spring/web/service/impl/CourseServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+        <state relative-caret-position="308">
+          <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/util/CORSFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/util/RandomCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/controller/CourseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="72" selection-start-line="20" selection-start-column="72" selection-end-line="20" selection-end-column="72" />
+        <state relative-caret-position="81">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/src/com/spring/web/entity/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="13" column="55" selection-start-line="12" selection-start-column="3" selection-end-line="13" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#957#958#0" expanded="true" />
+            <element signature="e#1017#1018#0" expanded="true" />
+            <element signature="e#1681#1682#0" expanded="true" />
+            <element signature="e#1731#1732#0" expanded="true" />
+            <element signature="e#1925#1926#0" expanded="true" />
+            <element signature="e#1971#1972#0" expanded="true" />
           </folding>
         </state>
       </provider>

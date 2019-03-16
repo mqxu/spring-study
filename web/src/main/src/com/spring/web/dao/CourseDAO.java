@@ -21,6 +21,20 @@ public interface CourseDAO extends BaseDAO<Course> {
             @Result(column = "username", property = "username"),
             @Result(column = "avatar", property = "avatar")
     })
-    @Select("SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 LIMIT 0,4 ")
+    @Select("SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 0 ")
     List<CourseVO> selectCurrentCourses();
+
+    //自定义的多表关联查询
+    @Results({@Result(column = "course_id", property = "courseId"),
+            @Result(column = "course_name", property = "courseName"),
+            @Result(column = "user_id", property = "userId"),
+            @Result(column = "course_class", property = "courseClass"),
+            @Result(column = "cover", property = "cover"),
+            @Result(column = "course_code", property = "courseCode"),
+            @Result(column = "finished", property = "finished"),
+            @Result(column = "username", property = "username"),
+            @Result(column = "avatar", property = "avatar")
+    })
+    @Select("SELECT a.*,b.username,b.avatar FROM t_course a Left JOIN t_sys_user b ON a.user_id=b.user_id WHERE a.finished = 1 ")
+    List<CourseVO> selectFinishedCourses();
 }
